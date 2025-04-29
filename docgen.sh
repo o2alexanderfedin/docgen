@@ -65,6 +65,43 @@ install_claude_cli() {
   fi
 }
 
+# Install GitHub CLI
+install_gh_cli() {
+  echo "Installing GitHub CLI..."
+  
+  if [[ "$OSTYPE" == "darwin"* ]]; then
+    # macOS
+    if command -v brew &> /dev/null; then
+      brew install gh
+    else
+      echo "Homebrew not found. Installing Homebrew first..."
+      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      brew install gh
+    fi
+  elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
+    # Linux
+    if command -v apt-get &> /dev/null; then
+      curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+      echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+      sudo apt update
+      sudo apt install gh
+    elif command -v dnf &> /dev/null; then
+      sudo dnf install -y 'dnf-command(config-manager)'
+      sudo dnf config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
+      sudo dnf install -y gh
+    elif command -v yum &> /dev/null; then
+      sudo yum-config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
+      sudo yum install -y gh
+    else
+      echo "Installing GitHub CLI using official installer..."
+      curl -fsSL https://cli.github.com/packages/rpm/gh-cli.repo | sudo tee /etc/yum.repos.d/gh-cli.repo
+      sudo yum install gh
+    fi
+  else
+    echo "Please install GitHub CLI manually: https://github.com/cli/cli#installation"
+  fi
+}
+
 # Check required tools
 echo "Checking required tools..."
 
@@ -88,6 +125,12 @@ check_command "git-flow" || {
 check_command "claude" || {
   echo "Claude CLI not found. Installing Claude CLI..."
   install_claude_cli
+}
+
+# Check and install GitHub CLI if needed
+check_command "gh" || {
+  echo "GitHub CLI not found. Installing GitHub CLI..."
+  install_gh_cli
 }
 
 echo "All required tools are installed!"
