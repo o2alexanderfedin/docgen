@@ -46,9 +46,9 @@ install_package() {
   fi
 }
 
-# Install Claude CLI
-install_claude_cli() {
-  echo "Installing Claude CLI..."
+# Install Brain CLI
+install_brain_cli() {
+  echo "Installing Brain CLI..."
   
   if [[ "$OSTYPE" == "darwin"* ]]; then
     # macOS
@@ -121,10 +121,10 @@ check_command "git-flow" || {
   fi
 }
 
-# Check and install claude if needed
+# Check and install brain if needed
 check_command "claude" || {
-  echo "Claude CLI not found. Installing Claude CLI..."
-  install_claude_cli
+  echo "Brain CLI not found. Installing Brain CLI..."
+  install_brain_cli
 }
 
 # Check and install GitHub CLI if needed
@@ -134,9 +134,9 @@ check_command "gh" || {
 }
 
 echo "All required tools are installed!"
-echo "Starting Claude console..."
+echo "Starting Brain console..."
 
-# Start claude console
+# Start brain console
 claude
 
-echo "Claude console session ended."
+echo "Brain console session ended."
