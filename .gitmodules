@@ -1,3 +1,6 @@
 [submodule "froms/semantic-kernel"]
 	path = froms/semantic-kernel
 	url = https://github.com/microsoft/semantic-kernel.git
+[submodule "tos/monotorrent-documentation"]
+	path = tos/monotorrent-documentation
+	url = https://github.com/o2alexanderfedin/monotorrent-documentation.git
