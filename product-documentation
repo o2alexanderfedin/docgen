@@ -1,0 +1,26 @@
+Please create a comprehensive Product Documentation that includes the following sections:
+	1.	Product Overview
+	•	Purpose of the product
+	•	Core value proposition
+	•	Target users and use cases
+	2.	Key Features
+	•	Bullet-point list of main capabilities
+	•	Describe how each feature supports user goals
+	•	Group features by functional areas or personas
+	3.	User Journeys / Use Cases
+	•	Describe real-world workflows enabled by the product
+	•	Use scenario-based storytelling: “As a user, I want to…”
+	•	Optional: Include diagrams or flowcharts
+	4.	System Architecture (High-Level)
+	•	Visual or textual overview of the product architecture
+	•	Include major modules, services, and integrations
+	•	Emphasize how architecture supports scalability, availability, and maintainability
+	5.	Release Roadmap (if applicable)
+	•	List past milestones and upcoming releases
+	•	Highlight which features are planned, in-progress, or shipped
+	6.	Business Impact
+	•	Metrics or KPIs targeted by the product
+	•	Alignment with strategic goals (e.g., revenue growth, user engagement)
+	7.	FAQs / Known Limitations
+	•	Common stakeholder questions
+	•	Honest note on what’s missing or constrained in current version
