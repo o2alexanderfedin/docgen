@@ -8,6 +8,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 The [Documentation Generator Prompt](docs/documentation_generator_prompt.md) defines how to analyze repositories and create documentation with minimal human input. See [Example Usage](docs/example_usage.md) for specific implementation scenarios.
 
+## Git Flow Process
+
+> All work in this repository follows the git flow branching model.
+
+See [Git Flow Workflow](docs/git_flow_workflow.md) for detailed instructions on the development process, including:
+- Creating feature branches for documentation tasks
+- Managing documentation releases
+- Applying hotfixes to published documentation
+
 ## Enterprise Documentation Guidelines
 
 > The following sections describe specific aspects of documentation standards. Reference the appropriate section based on the current documentation task.

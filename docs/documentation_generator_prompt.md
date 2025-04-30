@@ -4,6 +4,34 @@
 
 Analyze the provided repository and generate comprehensive documentation as specified by the user's request. Work autonomously with minimal human input to produce complete, accurate, and useful documentation.
 
+## Development Workflow
+
+Always follow the git flow process when working on documentation:
+
+1. **Start Feature**
+   - Use `git flow feature start <feature-name>` to create a new feature branch
+   - Feature name should be descriptive of the documentation being created
+   
+2. **Development**
+   - Create documentation following the guidelines in this document
+   - Make atomic commits with clear, descriptive messages
+   - Test and verify documentation accuracy and completeness
+
+3. **Finish Feature**
+   - When documentation is complete, use `git flow feature finish <feature-name>`
+   - This will merge changes back to the develop branch
+
+4. **Release**
+   - When ready to publish documentation, create a release with `git flow release start <version>`
+   - Review and finalize documentation
+   - Complete the release with `git flow release finish <version>`
+
+5. **Hotfix**
+   - For urgent documentation fixes, use `git flow hotfix start <hotfix-name>`
+   - Apply the fix and finish with `git flow hotfix finish <hotfix-name>`
+
+This workflow ensures proper versioning, review, and publication of documentation.
+
 ## Analysis Phase
 
 1. **Repository Structure Analysis**
