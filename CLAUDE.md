@@ -27,6 +27,14 @@ See [Git Flow Workflow](docs/git_flow_workflow.md) for detailed instructions on 
 - Managing documentation releases
 - Applying hotfixes to published documentation
 
+### GitHub CLI Usage
+
+See [GitHub CLI Usage](docs/github_cli_usage.md) for guidelines on using GitHub CLI in the documentation workflow:
+- Creating and managing repositories
+- Working with submodules
+- Managing pull requests and issues
+- Automating documentation tasks
+
 ### Documentation TDD
 
 See [Documentation TDD](docs/documentation_tdd.md) for guidelines on applying Test-Driven Development to documentation:
@@ -53,6 +61,11 @@ See [Documentation Structure](docs/documentation_structure.md) for standards on 
 > *Reference when writing or reviewing documentation content*
 
 See [Style Standards](docs/style_standards.md) for writing style, formatting, and presentation guidelines.
+
+### Diagram Standards
+> *Reference when creating or updating diagrams in documentation*
+
+See [Diagram Standards](docs/diagram_standards.md) for guidelines on creating Mermaid diagrams for documentation.
 
 ### Review Process
 > *Reference when preparing documentation for release*

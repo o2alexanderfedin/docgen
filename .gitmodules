@@ -1,0 +1,3 @@
+[submodule "froms/semantic-kernel"]
+	path = froms/semantic-kernel
+	url = https://github.com/microsoft/semantic-kernel.git
