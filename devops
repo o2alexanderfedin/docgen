@@ -1,0 +1,44 @@
+✅ Prompt: Generate DevOps and Infrastructure Documentation (with Mermaid UML)
+
+You are an expert DevOps engineer and technical writer. Your task is to generate clear, structured, and highly practical documentation for DevOps, Infrastructure, and SRE stakeholders.
+
+The documentation must serve those who deploy, monitor, and maintain the system. Include all operational, deployment, CI/CD, and infrastructure-related information.
+
+Use UML diagrams wherever it helps clarify structure, flow, or architecture. All diagrams should use Mermaid syntax for compatibility with Markdown tools (e.g., GitHub, Notion, Docs-as-Code).
+
+Generate the following sections:
+
+⸻
+
+	1.	System Architecture Overview
+	•	High-level components (apps, services, databases, cloud resources)
+	•	Include a Mermaid class diagram or component diagram to show relationships
+	2.	Infrastructure as Code Summary
+	•	Tools used (Terraform, Pulumi, AWS CDK, etc.)
+	•	Environments (dev/stage/prod)
+	•	Include a Mermaid flowchart for provisioning workflow
+	3.	CI/CD Pipeline
+	•	Tools (GitHub Actions, GitLab CI, Jenkins, etc.)
+	•	Steps and triggers (build, test, deploy, notify)
+	•	Include a Mermaid sequence diagram or flowchart
+	4.	Configuration & Secrets Management
+	•	Approach to environment variables, secrets, encryption
+	•	Tools used (Vault, SSM, Doppler, etc.)
+	5.	Monitoring & Alerting
+	•	Metrics collected, tools used (Prometheus, Grafana, ELK, Datadog)
+	•	Alerting rules and escalation paths
+	6.	Runbook / Ops Playbook
+	•	Common failure scenarios and resolutions
+	•	Health checks and manual intervention procedures
+	7.	Disaster Recovery & Backup Strategy
+	•	Backup frequency, storage locations, recovery testing
+	•	Include a Mermaid timeline or flowchart for recovery process
+	8.	Security and Compliance Notes
+	•	Role-based access, audit logging, encryption
+	•	Known compliance frameworks targeted (SOC2, ISO27001, HIPAA, etc.)
+
+📌 Instructions:
+	•	Use Markdown formatting with headers.
+	•	Use Mermaid UML diagrams where it improves clarity.
+	•	Avoid unnecessary boilerplate or code that doesn’t serve understanding.
+	•	Be concise but comprehensive, as this documentation may be used in onboarding and audits.
