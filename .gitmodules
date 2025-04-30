@@ -4,3 +4,6 @@
 [submodule "tos/monotorrent-documentation"]
 	path = tos/monotorrent-documentation
 	url = https://github.com/o2alexanderfedin/monotorrent-documentation.git
+[submodule "froms/monotorrent"]
+	path = froms/monotorrent
+	url = https://github.com/alanmcgovern/monotorrent.git
