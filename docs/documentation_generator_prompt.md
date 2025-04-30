@@ -62,12 +62,17 @@ Apply Test-Driven Development principles to documentation creation in an iterati
    - Ensure it satisfies the current iteration's requirements
    - **Commit and push verification results**
 
-6. **Repeat & Expand (Iteration)**
-   - Add new requirements to the verification checklist
-   - **Commit and push updated requirements**
-   - Return to step 2 and continue the cycle
+6. **Decision Point: Complete or Iterate?**
+   - If the documentation fully meets all requirements and no further improvements are needed:
+     - Mark the documentation as complete
+     - **Commit and push the final verification with "COMPLETE" status**
+     - END TDD CYCLE
+   - Otherwise:
+     - Add new requirements to the verification checklist
+     - **Commit and push updated requirements**
+     - Return to step 2 and continue the cycle
 
-Each iteration should be small and focused, and the complete TDD cycle should be repeated many times during documentation development. This ensures documentation evolves incrementally with continuous verification.
+Each iteration should be small and focused. The TDD cycle terminates when the documentation satisfies all requirements and a final review confirms it is complete and sufficient for its purpose. This prevents infinite loops while ensuring the documentation meets quality standards.
 
 ## Analysis Phase
 
