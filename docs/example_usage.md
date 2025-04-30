@@ -12,13 +12,18 @@
    - Key functions/classes/interfaces
    - Dependencies and relationships
    - Usage examples where appropriate
-4. It generates an index file with links to all file documentation
+4. It generates index files that mirror the source directory structure
 5. It self-reviews the documentation for accuracy and completeness
 
 **Output:**
-- `/docs/code/README.md` (index)
-- `/docs/code/{module_name}/README.md` (module indices)
-- `/docs/code/{module_name}/{file_name}.md` (individual file documentation)
+- Documentation structure mirrors the source code structure exactly
+- For example, if a source file is at `/src/components/Button.js`:
+  - Its documentation will be at `/docs/code/src/components/Button.md`
+- Each directory gets a README.md index file:
+  - `/docs/code/README.md` (main index)
+  - `/docs/code/src/README.md` (src directory index)
+  - `/docs/code/src/components/README.md` (components directory index)
+- This 1:1 mapping makes finding documentation intuitive and maintains context
 
 ## Example 2: System Architecture Documentation
 

@@ -41,10 +41,11 @@ Based on the user's specific request, generate the appropriate documentation typ
 
 2. **Format and Structure**
    - Use Markdown formatting optimized for GitHub viewing
-   - Create logical directory structure for documentation files
+   - For file-by-file documentation, mirror the exact source directory structure
    - Keep individual files focused and reasonably sized (<1000 lines)
    - Implement cross-references between related documentation sections
    - Generate tables of contents for navigation in larger documents
+   - Create README.md index files in each directory for easy navigation
 
 3. **Documentation Types**
    - **Architecture Documentation**: System diagrams, component relationships, data flows
@@ -97,6 +98,7 @@ After generating documentation:
    - `/docs/testing`: Test plans and quality assurance
    - `/docs/user`: End-user documentation
    - `/docs/compliance`: Regulatory and security documentation
+   - `/docs/code/`: File-by-file documentation that mirrors source code structure exactly
 
 2. **Index Files**
    - Create `README.md` files in each directory for navigation
