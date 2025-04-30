@@ -4,27 +4,24 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Enterprise Documentation Guidelines
 
+> The following sections describe specific aspects of documentation standards. Reference the appropriate section based on the current documentation task.
+
 ### Document Types
-- **Architecture Decision Records (ADRs)**: Use for key design decisions
-- **API Specifications**: OpenAPI 3.0 format with complete schema definitions
-- **User Guides**: Task-oriented, step-by-step instructions
-- **System Documentation**: Component diagrams using C4 model methodology
+> *Reference when creating new documentation assets or determining appropriate format*
+
+See [Document Types](docs/document_types.md) for guidelines on selecting the appropriate document format for different information needs.
 
 ### Documentation Structure
-- **Executive Summary**: 1-2 paragraphs for business context
-- **Technical Overview**: Architecture and key components
-- **Implementation Details**: Subsystems and interfaces
-- **Operational Guidelines**: Deployment, scaling, monitoring
-- **Security Considerations**: Threat model and mitigations
+> *Reference when organizing content within documents*
+
+See [Documentation Structure](docs/documentation_structure.md) for standards on how to organize information within each document type.
 
 ### Style Standards
-- **Voice**: Use direct, present tense, active voice
-- **Format**: Follow Google Developer Documentation Style Guide
-- **Diagrams**: Use PlantUML for sequence/flow, Mermaid for architecture
-- **Versioning**: Maintain documentation in lock-step with code releases
-- **Code Examples**: Include complete, tested examples with error handling
+> *Reference when writing or reviewing documentation content*
+
+See [Style Standards](docs/style_standards.md) for writing style, formatting, and presentation guidelines.
 
 ### Review Process
-- Technical accuracy review by SMEs
-- Clarity review by technical writers
-- Regular audits for completeness and currency
+> *Reference when preparing documentation for release*
+
+See [Review Process](docs/review_process.md) for the required steps to validate documentation before release.
