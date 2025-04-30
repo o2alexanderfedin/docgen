@@ -44,4 +44,4 @@ Please produce a comprehensive Developer Guide for developers consuming our API.
    - Common integration errors and resolutions  
    - Tips for debugging requests and inspecting responses  
 
-Embed real code examples from our codebase where possible, use clear headings for navigation, and include inline Markdown tables for parameter summaries.```
+Embed real code examples from our codebase where possible, use clear headings for navigation, and include inline Markdown tables for parameter summaries.
