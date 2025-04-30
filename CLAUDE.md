@@ -2,6 +2,12 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Documentation Generator
+
+> This repository contains a framework for automatically generating comprehensive documentation from code repositories.
+
+The [Documentation Generator Prompt](docs/documentation_generator_prompt.md) defines how to analyze repositories and create documentation with minimal human input. See [Example Usage](docs/example_usage.md) for specific implementation scenarios.
+
 ## Enterprise Documentation Guidelines
 
 > The following sections describe specific aspects of documentation standards. Reference the appropriate section based on the current documentation task.
