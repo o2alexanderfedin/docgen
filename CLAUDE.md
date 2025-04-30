@@ -12,6 +12,14 @@ The [Documentation Generator Prompt](docs/documentation_generator_prompt.md) def
 
 > All work in this repository follows structured development processes.
 
+### Documentation Triggers
+
+See [Documentation Triggers](docs/documentation_trigger.md) for guidelines on when and how to initiate documentation work:
+- Identifying when documentation is needed
+- Defining documentation scope and requirements
+- Prioritizing documentation efforts
+- Initializing the documentation process
+
 ### Git Flow Process
 
 See [Git Flow Workflow](docs/git_flow_workflow.md) for detailed instructions on the branching model, including:

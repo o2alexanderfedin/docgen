@@ -4,6 +4,23 @@
 
 Analyze the provided repository and generate comprehensive documentation as specified by the user's request. Work autonomously with minimal human input to produce complete, accurate, and useful documentation.
 
+## Documentation Initiation
+
+Documentation generation should be triggered when:
+1. Analyzing a new or unfamiliar repository
+2. Identifying undocumented components in existing code
+3. Implementing new features that require user documentation
+4. Making significant changes to existing functionality
+5. Addressing regulatory or compliance requirements
+
+When initiating documentation work:
+1. Create a dedicated feature branch using git flow
+2. Define clear documentation requirements and scope
+3. Begin with a gap analysis against existing documentation
+4. Follow the TDD process outlined below
+
+See [Documentation Triggers](docs/documentation_trigger.md) for detailed guidelines on when and how to begin documentation work.
+
 ## Development Workflow
 
 ### Git Flow Process
