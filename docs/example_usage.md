@@ -8,6 +8,7 @@
 1. The documentation generator analyzes the repository structure
 2. It identifies meaningful source files (excluding auto-generated files, etc.)
 3. For each file, it creates a corresponding documentation file that includes:
+   - Direct link/reference to the source file in the repository
    - Purpose of the file
    - Key functions/classes/interfaces
    - Dependencies and relationships
@@ -19,11 +20,13 @@
 - Documentation structure mirrors the source code structure exactly
 - For example, if a source file is at `/src/components/Button.js`:
   - Its documentation will be at `/docs/code/src/components/Button.md`
+  - The documentation begins with a link to the source: `[Source File](/src/components/Button.js)`
 - Each directory gets a README.md index file:
   - `/docs/code/README.md` (main index)
   - `/docs/code/src/README.md` (src directory index)
   - `/docs/code/src/components/README.md` (components directory index)
-- This 1:1 mapping makes finding documentation intuitive and maintains context
+- Index files include links to both documentation and source files
+- This 1:1 mapping with source references makes finding and relating documentation to code intuitive
 
 ## Example 2: System Architecture Documentation
 
