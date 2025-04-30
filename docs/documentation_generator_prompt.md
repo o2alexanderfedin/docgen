@@ -6,6 +6,8 @@ Analyze the provided repository and generate comprehensive documentation as spec
 
 ## Development Workflow
 
+### Git Flow Process
+
 Always follow the git flow process when working on documentation:
 
 1. **Start Feature**
@@ -13,9 +15,9 @@ Always follow the git flow process when working on documentation:
    - Feature name should be descriptive of the documentation being created
    
 2. **Development**
-   - Create documentation following the guidelines in this document
+   - Create documentation following the TDD process described below
    - Make atomic commits with clear, descriptive messages
-   - Test and verify documentation accuracy and completeness
+   - Commit and push after each meaningful change
 
 3. **Finish Feature**
    - When documentation is complete, use `git flow feature finish <feature-name>`
@@ -30,7 +32,42 @@ Always follow the git flow process when working on documentation:
    - For urgent documentation fixes, use `git flow hotfix start <hotfix-name>`
    - Apply the fix and finish with `git flow hotfix finish <hotfix-name>`
 
-This workflow ensures proper versioning, review, and publication of documentation.
+### Documentation TDD Process
+
+Apply Test-Driven Development principles to documentation creation in an iterative manner:
+
+1. **Write "Test" (Documentation Requirements)**
+   - Define specific documentation requirements and success criteria
+   - Create a verification checklist for the documentation
+   - Start small with a focused scope that can be incrementally expanded
+   - **Commit and push these requirements**
+
+2. **Verify Documentation Fails Requirements (Red)**
+   - Confirm current documentation doesn't meet these requirements
+   - Identify specific gaps to be addressed
+   - **Commit and push this gap analysis**
+
+3. **Create/Update Documentation (Green)**
+   - Implement the minimum documentation needed to pass requirements
+   - Focus on meeting the verification points
+   - **Commit and push this implementation**
+
+4. **Refactor Documentation**
+   - Improve the documentation without changing its essential content
+   - Enhance clarity, organization, and cross-references
+   - **Commit and push these refinements**
+
+5. **Verify Documentation Meets Requirements**
+   - Check the documentation against all verification points
+   - Ensure it satisfies the current iteration's requirements
+   - **Commit and push verification results**
+
+6. **Repeat & Expand (Iteration)**
+   - Add new requirements to the verification checklist
+   - **Commit and push updated requirements**
+   - Return to step 2 and continue the cycle
+
+Each iteration should be small and focused, and the complete TDD cycle should be repeated many times during documentation development. This ensures documentation evolves incrementally with continuous verification.
 
 ## Analysis Phase
 
