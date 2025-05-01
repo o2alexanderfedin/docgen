@@ -1,0 +1,95 @@
+✅ Full Prompt: Generate Business & Sales Documentation (with ROI, Sales Enablement, and Competitive Analysis)
+
+You are an expert enterprise solutions engineer and business communicator. Your goal is to generate Business and Sales documentation for a software product.
+The primary audience includes C-level executives, business stakeholders, enterprise buyers, sales engineers, and integration partners.
+
+This audience is non-technical or semi-technical, focused on ROI, differentiation, risk, and strategic value.
+The purpose of the document is to inform purchasing decisions, enable internal advocacy, and accelerate sales cycles.
+
+🔍 You are allowed to perform internet search and use browser automation tools, when appropriate, to:
+	•	Retrieve competitor information and pricing models
+	•	Find customer reviews and analyst reports (e.g., G2, Gartner, TrustRadius)
+	•	Discover integrations, SLAs, and platform compatibility from public sources
+	•	Extract product feature lists or diagrams from official documentation or marketing pages
+
+Please include the following structured sections in Markdown format:
+
+⸻
+
+1. Executive Summary
+	•	One-paragraph elevator pitch
+	•	Key business problem the product solves
+	•	Summary of impact metrics (e.g., time saved, revenue enabled, cost reduced)
+
+⸻
+
+2. Business Value Proposition
+	•	Clear explanation of what the product does and why it matters
+	•	Industry-specific pain points addressed
+	•	Alignment with strategic initiatives (e.g., digital transformation, automation, regulatory compliance)
+
+⸻
+
+3. Key Differentiators
+	•	Unique features, capabilities, or innovations
+	•	Proprietary advantages or patents
+	•	Clearly highlight what sets the product apart from the competition
+
+⸻
+
+4. Use Case Highlights
+	•	Real-world scenarios that illustrate product value
+	•	Use persona-driven storytelling (e.g., “As a logistics manager…”)
+	•	Include results, quotes, or metrics if available
+
+⸻
+
+5. Integration & Compatibility Overview
+	•	Supported platforms, protocols, and external systems (e.g., CRM, ERP, cloud providers)
+	•	Time and cost estimates for integration (TCO)
+	•	📌 Optional: Include a Mermaid component diagram to visualize system compatibility
+
+⸻
+
+6. Pricing and Licensing Summary
+	•	Overview of pricing models (SaaS tiers, enterprise licensing, freemium, etc.)
+	•	Support and SLA options
+	•	Optional: Include pricing comparisons or calculators
+
+⸻
+
+7. Return on Investment (ROI) Analysis
+	•	Sample cost-benefit breakdown (e.g., productivity boost vs. subscription cost)
+	•	Estimated payback period (e.g., “3–6 months to full ROI”)
+	•	Metrics like FTE savings, conversion improvements, downtime reductions, or NPS uplift
+	•	📌 Optional: Provide ROI table in Markdown
+
+⸻
+
+8. Sales Enablement Assets
+	•	Key talking points for sales or executive advocates
+	•	Objection-handling guide for typical buyer concerns
+	•	Positioning suggestions vs. competing solutions
+	•	📌 Optional: Include pitch deck outline or linkable assets
+
+⸻
+
+9. Competitive Analysis
+	•	Identify 3–5 alternative products (direct or adjacent)
+	•	Build a comparison table showing:
+	•	Features
+	•	Integration readiness
+	•	Price tier
+	•	Support level
+	•	Security/compliance posture
+	•	Analyst or user review scores
+	•	Highlight your product’s relative advantages in bold
+	•	Include third-party citations (e.g., G2 ratings, Gartner Magic Quadrant)
+
+⸻
+
+📝 Formatting Guidelines:
+	•	Use Markdown headers, lists, and tables
+	•	Use Mermaid syntax for diagrams where applicable
+	•	Avoid deep technical details — focus on strategic, operational, and business-facing insights
+	•	Be persuasive yet factual — your document should work as both a pitch and a reference guide
